@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomNumber</title>
+</head>
+
+<body>
+    <h1>Your random number is : <%= bubbles%>;</h1>
+    <%if(bubbles%2==0){ %>
+    <h1>The number is even :<%=bubbles%></h1>
+    <%}else{%>
+    <h1>The number is odd : <%=bubbles%></h1>
+    <%}%>
+    <h3><%= bubbles%2==0 ? 'EVEN':'ODD'%></h3>
+</body>
+
+</html>
